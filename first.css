@@ -3,8 +3,11 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   background-color: #f4f4f4;
-  color: #333;
+
+body {
+  background-color: #fff; /* or the one you prefer */
 }
+
 
 /* Hero / Header */
 .hero {
@@ -102,4 +105,4 @@ footer {
   background-color: #eaeaea;
   font-size: 0.9rem;
   margin-top: 3rem;
-}
+}}
