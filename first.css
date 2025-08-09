@@ -2,12 +2,8 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #f4f4f4;
-
-body {
-  background-color: #fff; /* or the one you prefer */
+  background-color: #fff; /* white background */
 }
-
 
 /* Hero / Header */
 .hero {
@@ -43,6 +39,7 @@ h2 {
 .about p {
   font-size: 1.1rem;
   line-height: 1.6;
+  color: #333;
 }
 
 /* Project Cards */
@@ -70,10 +67,19 @@ h2 {
   color: #555;
 }
 
+.project-card ul {
+  padding-left: 20px;
+  color: #555;
+}
+
 .project-card a {
   color: #0077cc;
   font-weight: bold;
   text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
 }
 
 /* Contact */
@@ -105,4 +111,4 @@ footer {
   background-color: #eaeaea;
   font-size: 0.9rem;
   margin-top: 3rem;
-}}
+}
